@@ -50,6 +50,8 @@ kotlin {
             implementation(libs.room.runtime)
             implementation(libs.kstore)
             implementation(libs.materialKolor)
+            implementation(compose.material3)
+            implementation(compose.materialIconsExtended)
         }
 
         commonTest.dependencies {
