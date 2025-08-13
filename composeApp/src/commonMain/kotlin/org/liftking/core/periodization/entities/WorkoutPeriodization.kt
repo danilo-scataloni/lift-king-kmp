@@ -2,7 +2,7 @@ package org.liftking.core.periodization.entities
 
 import kotlinx.datetime.LocalDate
 
-internal data class WorkoutPeriodization(
+data class WorkoutPeriodization(
     val id: Int,
     var description: String,
     var startsOn: LocalDate,
